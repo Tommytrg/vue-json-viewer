@@ -43,7 +43,7 @@ import JsonViewer from 'vue-json-viewer'
 
 // Import JsonViewer as a Vue.js plugin
 Vue.use(JsonViewer)
-// or 
+// or
 // components: {JsonViewer}
 
 
@@ -121,7 +121,7 @@ import JsonViewer from 'vue-json-viewer/ssr'
 
 // Import JsonViewer as a Vue.js plugin
 Vue.use(JsonViewer)
-// or 
+// or
 // components: {JsonViewer}
 ```
 and
@@ -182,6 +182,8 @@ import 'vue-json-viewer/style.css'
     &.jv-boolean { color: #fc1e70 }
     &.jv-function { color: #067bca }
     &.jv-number { color: #fc1e70 }
+    &.jv-number-float { color: #fc1e70 }
+    &.jv-number-integer { color: #fc1e70 }
     &.jv-object { color: #111111 }
     &.jv-undefined { color: #e08331 }
     &.jv-string {
